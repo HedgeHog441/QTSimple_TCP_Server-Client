@@ -40,5 +40,5 @@
 - **I/O Multiplexing**: Режим "Plex" реализован через системный вызов `select()` или `poll()`, что позволяет эффективно обрабатывать множество соединений в одном системном потоке.
 - **Multithreading**: Использование `std::thread` для изоляции сетевых задач от графического интерфейса.
 
--  ![Server View](.server_interface.png)
+-  ![Server View](./server_interface.png)
 
