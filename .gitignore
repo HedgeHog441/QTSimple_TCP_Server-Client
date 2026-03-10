@@ -1,0 +1,16 @@
+*.o
+*.obj
+*.Makefile
+Makefile*
+*.qmake.stash
+*.user
+
+# Папки сборки
+build/
+debug/
+release/
+
+# Qt moc/ui файлы
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
