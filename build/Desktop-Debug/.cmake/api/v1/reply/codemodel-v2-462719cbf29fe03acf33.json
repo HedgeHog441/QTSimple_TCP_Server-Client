@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-af441947ce7ce433b12f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QTSimple_TCP_Server-Client",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QTSimple_TCP_Server-Client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QTSimple_TCP_Server-Client-Debug-378f1e39276253f5248b.json",
+					"name" : "QTSimple_TCP_Server-Client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QTSimple_TCP_Server-Client_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QTSimple_TCP_Server-Client_autogen-Debug-7aac513a3e50c0d9518c.json",
+					"name" : "QTSimple_TCP_Server-Client_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QTSimple_TCP_Server-Client_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QTSimple_TCP_Server-Client_autogen_timestamp_deps-Debug-19ab6bf51682a21e539e.json",
+					"name" : "QTSimple_TCP_Server-Client_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ilya/C++/QT/QTSimple_TCP_Server-Client/build/Desktop-Debug",
+		"source" : "/home/ilya/C++/QT/QTSimple_TCP_Server-Client"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
