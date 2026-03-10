@@ -1,7 +1,7 @@
-# Игнорировать Makefile в статистике языков
-Makefile linguist-documentation
-*.mk linguist-documentation
-
-# Скрыть файлы сборки CMake из статистики
-CMakeLists.txt linguist-documentation
-*.cmake linguist-documentation
+# Скрываем сгенерированные файлы и скрипты сборки
+Makefile linguist-vendored
+*.mk linguist-vendored
+CMakeLists.txt linguist-vendored
+*.cmake linguist-vendored
+# Если есть папка build или подобные
+build/** linguist-vendored
