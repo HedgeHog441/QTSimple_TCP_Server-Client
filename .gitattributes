@@ -1,6 +1,16 @@
 # Скрываем сгенерированные файлы и скрипты сборки
 Makefile linguist-vendored
 *.mk linguist-vendored
+
+# Полное исключение Makefile из статистики во всех папках
+**/Makefile linguist-vendored
+**/Makefile linguist-generated
+**/Makefile linguist-documentation
+
+# На случай, если файлы имеют расширение .mk
+**/*.mk linguist-vendored
+
+
 CMakeLists.txt linguist-vendored
 *.cmake linguist-vendored
 # Если есть папка build или подобные
